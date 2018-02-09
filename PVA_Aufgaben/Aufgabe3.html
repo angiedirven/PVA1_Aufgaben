@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 / CSS3 Aufgabe 3</title>
+</head>
+
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    #oben {
+        width: 700px;
+        float: left;
+    }
+
+    #mitte, #unten {
+        width: 700px;
+        clear: left;
+        float: left;
+     }
+
+    img {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        margin: 1%;
+        transition-property: transform;
+        transition-duration: 0.5s;
+
+    }
+
+    img:hover, img:focus {
+        transform: scale(1.5) rotate(40deg);
+    }
+
+</style>
+<body>
+
+<div id="oben">
+
+        <a href="">
+            <img src="bilder/traube.jpg">
+        </a>
+
+        <a href="">
+            <img src="bilder/apfel.jpg">
+        </a>
+
+        <a href="">
+            <img src="bilder/himbere.jpg">
+        </a>
+</div>
+
+<div id="mitte">
+
+        <a href="">
+            <img src="bilder/granant.jpg">
+       </a>
+
+        <a href="">
+            <img src="bilder/ananans.jpg">
+        </a>
+
+        <a href="">
+            <img src="bilder/mango.jpg">
+        </a>
+</div>
+
+<div id="unten">
+
+        <a href="">
+            <img src="bilder/kiwi.jpg">
+        </a>
+
+        <a href="">
+            <img src="bilder/banane.jpg">
+        </a>
+
+        <a href="">
+            <img src="bilder/erdbeere.jpg">
+        </a>
+</div>
+
+
+</body>
+</html>
